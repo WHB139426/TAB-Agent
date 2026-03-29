@@ -1,7 +1,7 @@
 Think, Act, Build: An Agentic Framework with Vision Language Models for Zero-Shot 3D Visual Grounding
 
 <div align="center">
-  <img src="assets/intro.pdf"/>
+  <img src="assets/teaser.png"/>
 </div><br/>
 
 ## 🛠️ Install

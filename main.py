@@ -23,8 +23,8 @@ def parse_args():
     """
     replace with your own weight path
     """
-    parser.add_argument('--client_id', type=str, default='/home/haibo/haibo_workspace/weights/Qwen3-VL-32B-Instruct')
-    parser.add_argument('--sam_path', type=str, default='/home/haibo/haibo_workspace/weights/sam3')
+    parser.add_argument('--client_id', type=str, default='your_path_to/Qwen3-VL-32B-Instruct')
+    parser.add_argument('--sam_path', type=str, default='your_path_to/sam3')
 
     args = parser.parse_args()
     return args

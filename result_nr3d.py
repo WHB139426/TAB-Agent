@@ -5,7 +5,7 @@ from mm_utils.utils import *
 from datasets.scanref import load_bboxes, read_axis_alignment
 
 data = load_json('results/nr3d_results.json')
-DATA_DIR = "/home/haibo/haibo_workspace/data"
+DATA_DIR = "your_path_to/data"
 anno_path = os.path.join(DATA_DIR, 'scannet-dataset')
 
 overall_acc = 0

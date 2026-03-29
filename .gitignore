@@ -9,6 +9,7 @@ cached_images_2/*
 cached_images_3/*
 
 tab_workspace/*
+scripts/update.sh
 
 results/results_gpu0.json
 results/results_gpu1.json

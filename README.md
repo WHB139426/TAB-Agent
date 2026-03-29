@@ -1,3 +1,9 @@
+Think, Act, Build: An Agentic Framework with Vision Language Models for Zero-Shot 3D Visual Grounding
+
+<div align="center">
+  <img src="assets/intro.pdf"/>
+</div><br/>
+
 ## 🛠️ Install
 1. Clone this repository and navigate to folder
 ```bash

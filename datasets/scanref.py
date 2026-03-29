@@ -62,9 +62,9 @@ def load_bboxes(ply_path, segs_path, agg_path, axisAlignment):
 class ScanRefDataset(Dataset):
     def __init__(
         self,
-        split_path = '/home/haibo/haibo_workspace/data/scanref/scanrefer_val_250_refined.json',
-        anno_path = '/home/haibo/haibo_workspace/data/scannet-dataset',
-        video_path = '/home/haibo/haibo_workspace/data/scannet-frames',
+        split_path = 'your_path_to/scanref/scanrefer_val_250_refined.json',
+        anno_path = 'your_path_to/scannet-dataset',
+        video_path = 'your_path_to/scannet-frames',
         num_frames = 300,
     ):
         super().__init__()

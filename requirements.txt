@@ -1,0 +1,11 @@
+torch==2.4.1
+torchvision==0.19.1
+transformers==5.4.0
+open3d
+qwen_vl_utils
+pydantic
+opencv-python
+psutil 
+ninja 
+packaging
+numpy==1.26.4

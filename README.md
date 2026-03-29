@@ -45,7 +45,7 @@ python main.py
 4. you can observe the execution trace in `tab_workspace/chat_history.json`
 
 ## 🎬 Prepare the Dataset
-We provide the [ScanRef](https://github.com/daveredrum/ScanRefer) and [Nr3D](https://github.com/referit3d/referit3d) datasets, along with our refined annotations, on Hugging Face: [🤗WHB139426/Scannet](https://huggingface.co/datasets/WHB139426/Scannet). Please download the required files and extract `scannet-dataset.zip` and `scannet-frames.zip` into your designated `data_path`. After downloading and unzipping, your workspace should be organized as follows:
+We provide the [ScanRef](https://github.com/daveredrum/ScanRefer) and [Nr3D](https://github.com/referit3d/referit3d) datasets, along with our refined annotations, on Hugging Face: [[🤗WHB139426/Scannet](https://huggingface.co/datasets/WHB139426/Scannet)]. Please download the required files and extract `scannet-dataset.zip` and `scannet-frames.zip` into your designated `data_path`. After downloading and unzipping, your workspace should be organized as follows:
 ```text
 ├── TAB-Agent/                            
 │   ├── agent/

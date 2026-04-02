@@ -132,7 +132,7 @@ def evaluate(rank, data_split, CLIENT_ID, SAM_CKPT, anno_path, video_path, objec
         """
         proposal matching
         """
-        match_threshold = 0
+        match_threshold = 0.25
         scene_pcd = item['point_cloud']
         matched_bbox = proposal_matching(pred_bbox, os.path.join(object_lookup_table_path, f"pred/{item['scene_id']}.json"), scene_pcd, match_threshold)
         matched_iou = calculate_iou_3d(gt_bbox, matched_bbox)  

@@ -17,13 +17,13 @@ from agent.tools.registry import ToolRegistry
 
 class AgentLoop:
     def __init__(self, 
-                 client_id='/home/haibo/haibo_workspace/weights/Qwen3-VL-32B-Instruct',
-                 sam_path='/home/haibo/haibo_workspace/weights/sam3',
+                 client_id='Qwen/Qwen3-VL-32B-Instruct',
+                 sam_path='facebook/sam3',
 
-                 cache_dir='./react_workspace',
+                 cache_dir='./tab_workspace',
                  skill_dir='./agent/skills',
-                 scannet_video_path='/home/haibo/haibo_workspace/data/scannet-frames',
-                 scannet_info_path='/home/haibo/haibo_workspace/data/scannet-dataset',
+                 scannet_video_path='scannet-frames',
+                 scannet_info_path='scannet-dataset',
 
                  max_steps=20,
                  

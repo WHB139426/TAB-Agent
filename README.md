@@ -1,4 +1,13 @@
-Think, Act, Build: An Agentic Framework with Vision Language Models for Zero-Shot 3D Visual Grounding
+<h2 align="center"> <a href="https://arxiv.org/abs/2604.00528">Think, Act, Build: An Agentic Framework with Vision Language Models for Zero-Shot 3D Visual Grounding</a></h2>
+
+🌟 This is the official repository for TAB (Think, Act, Build), a dynamic agentic framework designed for zero-shot 3D Visual Grounding (3D-VG). By operating directly on raw RGB-D streams, TAB reformulates 3D grounding from a static proposal matching task into an active semantic reasoning and geometric reconstruction process.
+
+<h5 align="center">
+
+[![arXiv](https://img.shields.io/badge/Arxiv-2604.00528-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2604.00528)
+[![hf_space](https://img.shields.io/badge/🤗-Open%20In%20Spaces-blue.svg)](https://huggingface.co/datasets/WHB139426/Scannet)
+
+</h5>
 
 <div align="center">
   <img src="assets/teaser.png"/>
@@ -36,13 +45,13 @@ Download the pretrained weights [[🤗Qwen3-VL-32B-Instruct](https://huggingface
 
 ## 🚀 Qucik Start
 We give a brief example to run the example code. We recommend a single GPU with 80GB memeroy for Qwen3-VL-32B-Instruct inference.
-1. replace the parameter `client_id` in `main.py` with your `Qwen3-VL-32B-Instruct` weight path.
-2. replace the parameter `sam_path` in `main.py` with your `SAM3` weight path.
-3. run the command:
+1. Replace the parameter `client_id` in `main.py` with your `Qwen3-VL-32B-Instruct` weight path.
+2. Replace the parameter `sam_path` in `main.py` with your `SAM3` weight path.
+3. Run the command:
 ```Shell
 python main.py
 ```
-4. you can observe the execution trace in `tab_workspace/chat_history.json`
+4. You can observe the execution trace in `tab_workspace/chat_history.json`
 
 ## 🎬 Prepare the Dataset
 We provide the [ScanRef](https://github.com/daveredrum/ScanRefer) and [Nr3D](https://github.com/referit3d/referit3d) datasets, along with our refined annotations, on Hugging Face: [[🤗WHB139426/Scannet](https://huggingface.co/datasets/WHB139426/Scannet)]. Please download the required files and extract `scannet-dataset.zip` and `scannet-frames.zip` into your designated `data_path`. After downloading and unzipping, your workspace should be organized as follows:
@@ -98,8 +107,14 @@ python result_nr3d.py
 
 ## ✏️ Citation
 If you find our paper and code useful in your research, please consider giving a star :star: and citation :pencil:.
-
 ```BibTeX
-
-
+@misc{wang2026thinkactbuildagentic,
+      title={Think, Act, Build: An Agentic Framework with Vision Language Models for Zero-Shot 3D Visual Grounding}, 
+      author={Haibo Wang and Zihao Lin and Zhiyang Xu and Lifu Huang},
+      year={2026},
+      eprint={2604.00528},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2604.00528}, 
+}
 ```

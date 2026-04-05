@@ -108,13 +108,10 @@ python result_nr3d.py
 ## ✏️ Citation
 If you find our paper and code useful in your research, please consider giving a star :star: and citation :pencil:.
 ```BibTeX
-@misc{wang2026thinkactbuildagentic,
-      title={Think, Act, Build: An Agentic Framework with Vision Language Models for Zero-Shot 3D Visual Grounding}, 
-      author={Haibo Wang and Zihao Lin and Zhiyang Xu and Lifu Huang},
-      year={2026},
-      eprint={2604.00528},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2604.00528}, 
+@article{wang2026think,
+  title={Think, Act, Build: An Agentic Framework with Vision Language Models for Zero-Shot 3D Visual Grounding},
+  author={Wang, Haibo and Lin, Zihao and Xu, Zhiyang and Huang, Lifu},
+  journal={arXiv preprint arXiv:2604.00528},
+  year={2026}
 }
 ```

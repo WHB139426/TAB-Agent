@@ -1,4 +1,4 @@
-<h2 align="center"> <a href="https://arxiv.org/abs/2604.00528">Think, Act, Build: An Agentic Framework with Vision Language Models for Zero-Shot 3D Visual Grounding</a></h2>
+<h2 align="center"> <a href="https://arxiv.org/abs/2604.00528">[EMNLP 2026 Main] Think, Act, Build: An Agentic Framework with Vision Language Models for Zero-Shot 3D Visual Grounding</a></h2>
 
 🌟 This is the official repository for TAB (Think, Act, Build), a dynamic agentic framework designed for zero-shot 3D Visual Grounding (3D-VG). By operating directly on raw RGB-D streams, TAB reformulates 3D grounding from a static proposal matching task into an active semantic reasoning and geometric reconstruction process.
 
